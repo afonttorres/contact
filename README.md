@@ -1,7 +1,7 @@
 # Ejercicios Open Bootcamp
 
 En este proyecto se encuentran tanto los ejercicios como la teoría impartida
-en el curso de React.js Intermedio de Open Bootcamp.
+en el curso de React JS Intermedio de Open Bootcamp.
 
 ## Teoría
 
