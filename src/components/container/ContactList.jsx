@@ -1,5 +1,4 @@
 import React from 'react';
-import { useState } from 'react';
 import { Contact } from '../../models/contact.class';
 import ContactComponent from '../pure/ContactComponent';
 

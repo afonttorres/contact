@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Ejercicios Open Bootcamp
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+En este proyecto se encuentran tanto los ejercicios como la teoría impartida
+en el curso de React.js Intermedio de Open Bootcamp.
 
-## Available Scripts
+## Teoría
 
-In the project directory, you can run:
+### Introducción a React JS
 
-### `npm start`
+### Componentes y jerarquía
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Presentación del proyecto evolutivo
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Los Hooks de React
 
-### `npm test`
+### Avance en el proyecto evolutivo
+ + Ejemplo1.jsx
+ + Ejemplo2.jsx
+ + Ejemplo3.jsx
+ + Ejemplo4.jsx
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Dando estilos a un proyecto ReactJS
+ + GreetingStyled.jsx
 
-### `npm run build`
+## Ejercicios
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Ejercicios: 1, 2 y 3
+Para este primer reto de programación en React vamos a poner en practica lo aprendido hasta ahora para crear dos componentes.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Cada uno de estos componentes tendrá sus propias características.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Componente A: Este componente va a tener disponer un Contacto(crea una clase para ello), que va a contar con las siguientes características:
 
-### `npm run eject`
+Nombre: que será un String.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Apellido: también un String.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Email: de nuevo un String.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Conectado: será un booleano que nos indicará si la persona está conectada o no.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Componente B: Por otro lado, tenemos el componente B que va a recibir por props un contacto y va a poder cambiar su estado de conectado a desconectado y viceversa.
 
-## Learn More
+Si el contacto está conectado, se debe mostrar: Contacto En Línea
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Si el contacto no está conectado, se debe mostrar: Contacto No Disponible
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Renderizado de componentes en la solución:
 
-### Code Splitting
+El Componente A debe ser renderizado dentro del componenet App.js del proyecto.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+El Componente B debe ser renderizado desde el componte A y recibir los props adecuadamente
 
-### Analyzing the Bundle Size
+Recordatorio: Haz uso de Proptypes adecuadamente
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+#### Model
+ + contact.class.js
 
-### Making a Progressive Web App
+#### Container
+ + ContactList.jsx
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+#### Pure
+ + ContactComponent.jsx  
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Ejercicios: 4, 5 y 6
