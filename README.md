@@ -12,8 +12,6 @@ en el curso de React.js Intermedio de Open Bootcamp.
 ### Presentación del proyecto evolutivo
 
 ### Los Hooks de React
-
-### Avance en el proyecto evolutivo
  + [Ejercicio1.jsx](https://github.com/afonttorres/contact/blob/main/src/hooks/Ejemplo1.jsx)
  + [Ejercicio2.jsx](https://github.com/afonttorres/contact/blob/main/src/hooks/Ejemplo2.jsx)
  + [Ejercicio3.jsx](https://github.com/afonttorres/contact/blob/main/src/hooks/Ejemplo3.jsx)
@@ -23,6 +21,8 @@ en el curso de React.js Intermedio de Open Bootcamp.
  + [DidMount.jsx](https://github.com/afonttorres/contact/blob/main/src/hooks/lifecycle/DidMount.jsx)
  + [DidUpdate.jsx](https://github.com/afonttorres/contact/blob/main/src/hooks/lifecycle/DidUpdate.jsx)
  + [WillUnmount.jsx](https://github.com/afonttorres/contact/blob/main/src/hooks/lifecycle/WillUnmount.jsx)
+
+### Avance en el proyecto evolutivo
 
 ### Dando estilos a un proyecto ReactJS
  + [GreetingStyled.jsx](https://github.com/afonttorres/contact/blob/main/src/hooks/GreetingStyled.jsx)
