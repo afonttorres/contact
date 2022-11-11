@@ -53,16 +53,15 @@ El Componente B debe ser renderizado desde el componte A y recibir los props ade
 
 Recordatorio: Haz uso de Proptypes adecuadamente
 
-#### Model
- + contact.class.js
+#### Links
+ + [contact.class.js](https://github.com/afonttorres/contact/blob/main/src/models/contact.class.js)
+ + [ContactComponent.jsx](https://github.com/afonttorres/contact/blob/main/src/components/pure/ContactComponent.jsx)  
+ + [ContactList.jsx](https://github.com/afonttorres/contact/blob/main/src/components/container/ContactList.jsx)
 
-#### Container
- + ContactList.jsx
-
-#### Pure
- + ContactComponent.jsx  
 
 ### Ejercicios sesiones 4, 5 y 6
 
-#### Pure
- + Clock.jsx  
+Partiendo del siguiente componente de clase que contempla varios métodos de ciclo de vida, convertidlo en un componente funcional que realice exactamente lo mismo:
+
+#### Link
++ [Link text Here](https://github.com/afonttorres/contact/blob/main/src/components/pure/Clock.jsx)
