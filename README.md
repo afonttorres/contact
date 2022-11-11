@@ -24,7 +24,7 @@ en el curso de React.js Intermedio de Open Bootcamp.
 
 ## Ejercicios
 
-### Ejercicios: 1, 2 y 3
+### Ejercicios sesiones 1, 2 y 3
 Para este primer reto de programación en React vamos a poner en practica lo aprendido hasta ahora para crear dos componentes.
 
 Cada uno de estos componentes tendrá sus propias características.
@@ -62,4 +62,7 @@ Recordatorio: Haz uso de Proptypes adecuadamente
 #### Pure
  + ContactComponent.jsx  
 
-### Ejercicios: 4, 5 y 6
+### Ejercicios sesiones 4, 5 y 6
+
+#### Pure
+ + Clock.jsx  

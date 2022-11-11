@@ -6,6 +6,7 @@ import Ejemplo2 from './hooks/Ejemplo2';
 import ComponenteConContexto from './hooks/Ejemplo3';
 import Ejemplo4 from './hooks/Ejemplo4';
 import GreetingStyled from './hooks/GreetingStyled';
+import { FunctionalClock } from './components/pure/Clock';
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
           <noscript>Este elemento se trata como props.children</noscript>
           <p>patata</p>
         </Ejemplo4> */}
-        <GreetingStyled name={"Agnès"}/>
+        {/* <GreetingStyled name={"Agnès"}/> */}
+        <FunctionalClock />
       </header>
     </div>
   );
