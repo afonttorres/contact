@@ -1,0 +1,110 @@
+.col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-cont {
+    height: 90%;
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.title {
+    height: 10%;
+    margin: 0;
+    font-weight: 500;
+}
+
+.contact-list,
+form {
+    width: 85%;
+    position: relative;
+    gap: .75rem;
+    padding: 2.5% 0;
+}
+
+.contact-list {
+    height: 60%;
+    overflow-y: scroll;
+}
+
+.contact {
+    height: 5rem;
+    width: inherit;
+    width: -webkit-fill-available;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    border: 1px solid lightgray;
+    border-radius: 0.25rem;
+    gap: 2.5%;
+    padding: 1%;
+}
+
+.contact>p {
+    margin: 0;
+}
+
+#status {
+    height: .75rem;
+    width: .75rem;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.598));
+}
+
+.connected {
+    background-color: rgb(93, 177, 93);
+}
+
+.disconnected {
+    background-color: rgb(227, 104, 82);
+}
+
+#delete-icon,
+#status {
+    cursor: pointer;
+}
+
+#delete-icon:hover {
+    color: indianred;
+}
+
+form {
+    height: 30%;
+}
+
+.form-control {
+    height: fit-content;
+    width: 100%;
+    align-items: center;
+}
+
+.form-control>input {
+    height: 25px;
+    position: absolute;
+}
+
+.form-control>label {
+    position: relative;
+}
+
+input:focus+label {
+    top: -20px;
+}
+
+form>button {
+    height: 30px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%);
+}

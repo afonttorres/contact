@@ -11,9 +11,7 @@ import { FunctionalClock } from './components/pure/Clock';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        {/* <ContactList /> */}
+        <ContactList />
         {/* <Ejemplo1 /> */}
         {/* <Ejemplo2 /> */}
         {/* <ComponenteConContexto /> */}
@@ -22,8 +20,7 @@ function App() {
           <p>patata</p>
         </Ejemplo4> */}
         {/* <GreetingStyled name={"Agnès"}/> */}
-        <FunctionalClock />
-      </header>
+        {/* <FunctionalClock /> */}
     </div>
   );
 }
