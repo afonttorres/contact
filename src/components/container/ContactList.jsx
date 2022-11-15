@@ -17,7 +17,9 @@ const ContactList = () => {
 
     //METHODS
     const toggleStatus = (contact) => {
-        setContacts(contacts.map((c, i) => contacts.indexOf(contact) === i ? c = { ...c, isConnected: !c.isConnected } : c))
+        let tempContacts = [...contacts];
+        tempContacts[contacts.indexOf(contact)].isConnected = !contact.isConnected;
+        setContacts(tempContacts)
     }
 
     const removeContact = (contact) => {
@@ -25,14 +27,14 @@ const ContactList = () => {
     }
 
     const addContact = (contact) => {
-        let savedContacts = [...contacts];
-        savedContacts.push(contact);
-        setContacts(savedContacts);
+        let tempContacts = [...contacts];
+        tempContacts.push(contact);
+        setContacts(tempContacts);
     }
 
     return (
         <main className='main-cont col'>
-            <h1 className='title' >YOUR TASKS:</h1>
+            <h1 className='title' >YOUR CONTACTS</h1>
             <section className='contact-list col'>
                 {contacts.map((contact, key) => (
                     <ContactComponent

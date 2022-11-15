@@ -23,6 +23,8 @@ en el curso de React JS Intermedio de Open Bootcamp.
 ### Dando estilos a un proyecto ReactJS
  + [GreetingStyled.jsx](https://github.com/afonttorres/contact/blob/main/src/hooks/GreetingStyled.jsx)
 
+ ### Manejo de eventos
+
 ## Ejercicios
 
 ### Ejercicios sesiones 1, 2 y 3
@@ -66,3 +68,20 @@ Partiendo del siguiente componente de clase que contempla varios métodos de cic
 
 #### Link
 + [Clock.jsx](https://github.com/afonttorres/contact/blob/main/src/components/pure/Clock.jsx)
+
+### Ejercicios sesiones 7, 8 y 9
+
+En este ejercicio de React JS deberéis crear una lista, esta lista tendrá dentro distintos contactos y deberá cumplir con las siguientes funcionalidades:
+
++ Mostrar contacto.
++ Crear contacto.
++ Eliminar contacto.
++ Cambiar el estado del contacto entre Conectado y Desconectado.
+
+#### Links
+ + [contact.class.js](https://github.com/afonttorres/contact/blob/main/src/models/contact.class.js)
+ + [ContactComponent.jsx](https://github.com/afonttorres/contact/blob/main/src/components/pure/ContactComponent.jsx)  
+ + [ContactList.jsx](https://github.com/afonttorres/contact/blob/main/src/components/container/ContactList.jsx)
+ + [ContactForm.jsx](https://github.com/afonttorres/contact/blob/main/src/components/pure/forms/ContactForm.jsx)
+ + [ContactStatus.jsx](https://github.com/afonttorres/contact/blob/main/src/components/pure/ContactStatus.jsx)
+ + [contact.scss](https://github.com/afonttorres/contact/blob/main/src/styles/contact.scss)

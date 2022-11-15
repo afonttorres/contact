@@ -15,14 +15,20 @@ const ContactForm = ({ addContact }) => {
         e.preventDefault();
         let { name, surname, email } = contactData;
         addContact(new Contact(name, surname, email));
+        resetInput();
     }
 
-    const moveLabel = (field) => {
-        return contactData[field].length > 0 && contactData[field] !== '' ? 'placehold' : 'above';
+    const resetInput = () => {
+        setContactData(contact);
+    }
+
+    const defineLabelStle = (field) => {
+        return contactData[field].length > 0 && contactData[field] !== '' ? 'filled' : '';
     }
 
     return (
         <form className='col' onSubmit={add}>
+            <h3>Add a new contact!</h3>
             {Object.keys(contactData).map((field, key) => (
                 <div key={key} className='form-control col'>
                     <input
@@ -30,7 +36,9 @@ const ContactForm = ({ addContact }) => {
                         type={field === 'email' ? 'email' : 'text'}
                         onChange={(e) => setContactData({ ...contactData, [field]: e.target.value })}
                     />
-                    <label htmlFor={field} >{field}</label>
+                    <label htmlFor={field}
+                        className={defineLabelStle(field)}
+                    >{field}</label>
                 </div>
             ))}
             <button type='submit'>ADD</button>
