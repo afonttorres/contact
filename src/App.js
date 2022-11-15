@@ -7,20 +7,22 @@ import ComponenteConContexto from './hooks/Ejemplo3';
 import Ejemplo4 from './hooks/Ejemplo4';
 import GreetingStyled from './hooks/GreetingStyled';
 import { FunctionalClock } from './components/pure/Clock';
+import ColorChanger from './components/pure/ColorChanger';
 
 function App() {
   return (
     <div className="App">
-        <ContactList />
-        {/* <Ejemplo1 /> */}
-        {/* <Ejemplo2 /> */}
-        {/* <ComponenteConContexto /> */}
-        {/* <Ejemplo4 name="Agnès">
+      {/* <ContactList /> */}
+      {/* <Ejemplo1 /> */}
+      {/* <Ejemplo2 /> */}
+      {/* <ComponenteConContexto /> */}
+      {/* <Ejemplo4 name="Agnès">
           <noscript>Este elemento se trata como props.children</noscript>
           <p>patata</p>
         </Ejemplo4> */}
-        {/* <GreetingStyled name={"Agnès"}/> */}
-        {/* <FunctionalClock /> */}
+      {/* <GreetingStyled name={"Agnès"}/> */}
+      {/* <FunctionalClock /> */}
+      <ColorChanger />
     </div>
   );
 }
