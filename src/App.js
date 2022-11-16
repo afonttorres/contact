@@ -8,6 +8,7 @@ import Ejemplo4 from './hooks/Ejemplo4';
 import GreetingStyled from './hooks/GreetingStyled';
 import { FunctionalClock } from './components/pure/Clock';
 import ColorChanger from './components/pure/ColorChanger';
+import LoginFormik from './components/pure/forms/LoginFormik';
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
         </Ejemplo4> */}
       {/* <GreetingStyled name={"Agnès"}/> */}
       {/* <FunctionalClock /> */}
-      <ColorChanger />
+      {/* <ColorChanger /> */}
+      <LoginFormik />
     </div>
   );
 }

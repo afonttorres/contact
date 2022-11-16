@@ -1,6 +1,7 @@
-*{
+* {
     font-weight: 500;
 }
+
 .col {
     display: flex;
     flex-direction: column;
@@ -97,7 +98,9 @@ form {
     position: relative;
 }
 
-input, input:focus, input:hover{
+input,
+input:focus,
+input:hover {
     outline: none;
     box-shadow: none;
 }
@@ -116,7 +119,8 @@ input, input:focus, input:hover{
     text-transform: capitalize;
 }
 
-input:focus+label, label.filled {
+input:focus+label,
+label.filled {
     top: -15px;
     left: 15px;
     background-color: white;
@@ -138,8 +142,24 @@ form>button {
     box-shadow: none;
 }
 
-form>button:hover{
+form>button:hover {
     background-color: white;
     color: indianred;
     border: 1px solid indianred;
+}
+
+.error {
+    border: 1px dashed indianred;
+    border-radius: .25rem;
+    background-color: white;
+    padding: 2%;
+}
+
+div.error > p {
+    font-size: small;
+    color: indianred;
+}
+
+.error > p::first-letter {
+    text-transform: uppercase;
 }

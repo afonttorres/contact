@@ -24,6 +24,11 @@ en el curso de React JS Intermedio de Open Bootcamp.
  + [GreetingStyled.jsx](https://github.com/afonttorres/contact/blob/main/src/hooks/GreetingStyled.jsx)
 
  ### Manejo de eventos
+ ### Depuración de código
+ ### Buenas prácticas de estructuración
+ ### Aplicando renderizado condicional
+ ### Formularios (Formik & Yup)
+ + [LoginFormik.jsx](https://github.com/afonttorres/contact/blob/main/src/components/pure/forms/LoginFormik.jsx)
 
 ## Ejercicios
 
